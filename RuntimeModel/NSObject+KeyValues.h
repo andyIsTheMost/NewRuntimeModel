@@ -2,13 +2,24 @@
 //  NSObject+KeyValues.h
 //  RuntimeModel
 //
-//  Created by 艾广华 on 16/5/26.
-//  Copyright © 2016年 艾广华. All rights reserved.
-//
 
 #import <Foundation/Foundation.h>
 
 @interface NSObject (KeyValues)
+
+/**
+ *  将传过来的字典对象转换为Model对象
+ *
+ *  @param aDictionary 字典
+ *
+ *  @return
+ */
 +(id)objectWithKeyValues:(NSDictionary *)aDictionary;
+
+/**
+ *  将Model对象转换为字典对象
+ *
+ *  @return 
+ */
 - (NSDictionary *)keyValuesWithObject;
 @end
