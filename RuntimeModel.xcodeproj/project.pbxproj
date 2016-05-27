@@ -13,6 +13,8 @@
 		A4DB06101CF6FDE0003822A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4DB060E1CF6FDE0003822A6 /* Main.storyboard */; };
 		A4DB06121CF6FDE0003822A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4DB06111CF6FDE0003822A6 /* Assets.xcassets */; };
 		A4DB06151CF6FDE0003822A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4DB06131CF6FDE0003822A6 /* LaunchScreen.storyboard */; };
+		A4DB061E1CF6FE10003822A6 /* NSObject+KeyValues.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DB061D1CF6FE10003822A6 /* NSObject+KeyValues.m */; };
+		A4DB06211CF703BF003822A6 /* ModelClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DB06201CF703BF003822A6 /* ModelClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		A4DB06111CF6FDE0003822A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4DB06141CF6FDE0003822A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4DB06161CF6FDE0003822A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4DB061C1CF6FE10003822A6 /* NSObject+KeyValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KeyValues.h"; sourceTree = "<group>"; };
+		A4DB061D1CF6FE10003822A6 /* NSObject+KeyValues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KeyValues.m"; sourceTree = "<group>"; };
+		A4DB061F1CF703BF003822A6 /* ModelClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelClass.h; sourceTree = "<group>"; };
+		A4DB06201CF703BF003822A6 /* ModelClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				A4DB06091CF6FDE0003822A6 /* AppDelegate.m */,
 				A4DB060B1CF6FDE0003822A6 /* ViewController.h */,
 				A4DB060C1CF6FDE0003822A6 /* ViewController.m */,
+				A4DB061C1CF6FE10003822A6 /* NSObject+KeyValues.h */,
+				A4DB061D1CF6FE10003822A6 /* NSObject+KeyValues.m */,
+				A4DB061F1CF703BF003822A6 /* ModelClass.h */,
+				A4DB06201CF703BF003822A6 /* ModelClass.m */,
 				A4DB060E1CF6FDE0003822A6 /* Main.storyboard */,
 				A4DB06111CF6FDE0003822A6 /* Assets.xcassets */,
 				A4DB06131CF6FDE0003822A6 /* LaunchScreen.storyboard */,
@@ -151,7 +161,9 @@
 			files = (
 				A4DB060D1CF6FDE0003822A6 /* ViewController.m in Sources */,
 				A4DB060A1CF6FDE0003822A6 /* AppDelegate.m in Sources */,
+				A4DB06211CF703BF003822A6 /* ModelClass.m in Sources */,
 				A4DB06071CF6FDE0003822A6 /* main.m in Sources */,
+				A4DB061E1CF6FE10003822A6 /* NSObject+KeyValues.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

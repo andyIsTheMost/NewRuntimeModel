@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface NSObject (KeyValues)
-
++(id)objectWithKeyValues:(NSDictionary *)aDictionary;
+- (NSDictionary *)keyValuesWithObject;
 @end
