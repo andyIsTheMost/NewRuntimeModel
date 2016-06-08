@@ -20,7 +20,7 @@
     NSLog(@"model==%@",model);
     
     NSDictionary *dict = [model keyValuesWithObject];
-    NSLog(@"dict===%@",dict);
+//    NSLog(@"dict===%@",dict);
 }
 
 
